@@ -21,13 +21,14 @@ how-do-i-return · contains · Went from passing to failing (1.000000 → 0.0000
 ```
 
 ```bash
-uv add digline        # or: pip install digline
+pip install digline digline-anthropic   # or: uv add digline digline-anthropic
 ```
 
 | | |
 |---|---|
 | **[digline](https://github.com/digline/digline)** | the engine, the CLI and the report — Apache-2.0 |
-| **[on PyPI](https://pypi.org/project/digline/)** | `0.1.0`, Python 3.12+, one runtime dependency |
+| **[digline on PyPI](https://pypi.org/project/digline/)** | Python 3.12+, one runtime dependency |
+| **[digline-anthropic](https://pypi.org/project/digline-anthropic/)** | a prompt file in, a priced `Response` out |
 | **[the guide](https://github.com/digline/digline/blob/main/docs/guide.md)** | how to reason with it, in the order the problems arrive |
 | **[the metrics](https://github.com/digline/digline/blob/main/docs/metrics.md)** | a card per assertion: when to reach for it, what to watch out for |
 | **[the decisions](https://github.com/digline/digline/tree/main/docs/adr)** | numbered, with the reasoning, and fixed |
